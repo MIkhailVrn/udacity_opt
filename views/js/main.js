@@ -559,8 +559,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   var movPizza = document.querySelector("#movingPizzas1");
-  var forSize = screen.height % s;
-  for (var i = 0; i < forSize; i++) {
+  for (var i = 0; i < 200; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
